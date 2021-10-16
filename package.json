@@ -1,0 +1,19 @@
+{
+  "name": "book_store",
+  "version": "1.0.0",
+  "description": "dev project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maverickreal/book_store.git"
+  },
+  "author": "maverick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maverickreal/book_store/issues"
+  },
+  "homepage": "https://github.com/maverickreal/book_store#readme"
+}
