@@ -9,7 +9,12 @@
                 <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                     data-key="pk_test_51JlDO6SJZiaB0bkmGhXYtYp5h05pdKGM0xIVawucopDk9fwBoOhteLhImdsHbDrlG5AUAlizGZpuPe1mnpusZrX600JAG6rwvh"
                     data-amount="123" data-name="maverick-books" data-description="master the art of mastering mastery"
-                    data-image="/img/marketplace.png" data-locale="auto"></script>
+                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                    data-locale="auto"></script>
+                <script>
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                </script>
+                <button type="submit" class="btn btn-outline-dark text-dark btn-lg">Purchase</button>
             </form>
         </div>
         <div class="col-md-6">
